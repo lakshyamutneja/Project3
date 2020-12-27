@@ -231,7 +231,7 @@ jobs:
             cat inventory
 
       - add_ssh_keys:
-          fingerprints: ["4f:bf:cf:27:a7:f0:1a:d6:27:72:12:fa:45:86:c7:fa"]
+          fingerprints: ["6a:c0:c1:4d:6c:6b:67:79:1b:f7:94:36:24:52:25:da:ad:9e:aa:f9"]
       - run:
           name: Install dependencies
           command: |
@@ -302,7 +302,7 @@ jobs:
             ./extract_ip_address.sh  
      
       - add_ssh_keys:
-          fingerprints: ["4f:bf:cf:27:a7:f0:1a:d6:27:72:12:fa:45:86:c7:fa"] # You can get this ID in the section where you registered the SSH Key
+          fingerprints: ["6a:c0:c1:4d:6c:6b:67:79:1b:f7:94:36:24:52:25:da:ad:9e:aa:f9"] # You can get this ID in the section where you registered the SSH Key
       - run:
           name: Install dependencies
           command: |
